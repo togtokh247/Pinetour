@@ -1,0 +1,425 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./header.png);
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  max-width: 1204px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 46px;
+}
+.menu {
+  display: flex;
+}
+.menu p {
+  width: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+.menu img {
+  width: 20px;
+  height: 20px;
+}
+.lang {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titles p:nth-child(1) {
+  font-family:
+    Bebas Neue,
+    sans-serif;
+  font-size: 88px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 72%;
+  text-align: center;
+  font-weight: 400;
+}
+.titles p:nth-child(2) {
+  font-family:
+    Bebas Neue,
+    sans-serif;
+  font-size: 250px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 98%;
+  font-weight: 400;
+}
+.titles p:nth-child(3) {
+  font-family: Hanuman, serif;
+  font-size: 64px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 80%;
+  text-align: center;
+  font-weight: 900;
+}
+.cardcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 65px;
+  background-image: url(./Location\ image.png);
+}
+.card {
+  height: 370px;
+  width: 275.49px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow:
+    8px 8px 0px 0px rgba(41, 114, 155, 0.25),
+    -8px -8px 0px 0px rgba(31, 114, 170, 0.46);
+}
+.card:hover p {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+}
+.cardcontainer div:first-child {
+  background-image: url(./1.png);
+  background-size: cover;
+}
+.cardcontainer div:nth-child(2) {
+  background-image: url(./2.png);
+  background-size: cover;
+}
+.cardcontainer div:nth-child(3) {
+  background-image: url(./3.png);
+  background-size: cover;
+}
+.cardcontainer div:last-child {
+  background-image: url(./4.png);
+  background-size: cover;
+}
+.cardcontainer p {
+  font-size: 37px;
+  font-family:
+    Bebas Neue,
+    sans-serif;
+  color: #ffffff;
+  opacity: 80%;
+  text-shadow: 0px 4px 4.9px rgba(0, 0, 0, 0.65);
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./Roadmap\ image.png);
+  background-size: cover;
+}
+.maptitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 204px;
+}
+.maptitle p:first-child {
+  font-size: 42px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.maptitle p:last-child {
+  font-size: 20px;
+  padding-bottom: 59px;
+  color: #18181b;
+  opacity: 70%;
+  font-weight: 500;
+}
+.mapcontainer {
+  margin: 60px 121px;
+  position: relative;
+}
+.mapcard {
+  display: flex;
+  width: 513px;
+  height: 112px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 120px;
+  justify-content: space-between;
+}
+.mapcard:hover {
+  border: 4px solid #ffffff;
+}
+.mapcard_sukhbaatar {
+  background-color: #eee9d9;
+  opacity: 80%;
+}
+.mapcard_amarbayas {
+  background-color: #8bb8c1cc;
+  opacity: 80%;
+}
+.mapcard_khorgo {
+  background-color: #aad8d7cc;
+  opacity: 80%;
+}
+.mapcard_terkh {
+  background-color: #8bc0bdcc;
+  opacity: 80%;
+}
+.mapcard_khuvsgul {
+  background-color: #97cce0cc;
+  opacity: 80%;
+}
+.locpin {
+  height: 14px;
+  width: 14px;
+}
+.mapcard_title {
+  font-size: 24px;
+  color: #09090b;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.maploc {
+  display: flex;
+  gap: 12px;
+}
+.maploc p {
+  font-family: Montserrat, serif;
+}
+.day {
+  height: 52px;
+  width: 52px;
+  font-size: 14px;
+  border-radius: 100%;
+  background-color: #f7f6f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place_pin {
+  height: 34px;
+  width: 34px;
+  position: absolute;
+}
+.sukhbaatar {
+  left: 1165px;
+  top: 445px;
+}
+.amarbayas {
+  left: 952px;
+  top: 306px;
+}
+.khorgo {
+  left: 780px;
+  top: 428px;
+}
+.terkh {
+  left: 952px;
+  top: 680px;
+}
+.khuvsgul {
+  left: 749px;
+  top: 230px;
+}
+.place_img {
+  height: 245px;
+  width: 245px;
+  display: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.mapcard:nth-child(1):hover ~ .sukhbaatar {
+  display: block;
+}
+.mapcard:nth-child(2):hover ~ .amarbayas {
+  display: block;
+}
+.mapcard:nth-child(3):hover ~ .khorgo {
+  display: block;
+}
+.mapcard:nth-child(4):hover ~ .terkh {
+  display: block;
+}
+.mapcard:nth-child(5):hover ~ .khuvsgul {
+  display: block;
+}
+.pricing {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./Price&Footer\ image.png);
+  background-size: cover;
+}
+.pricetitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.pricetitle p:first-child {
+  font-size: 42px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.pricetitle p:last-child {
+  font-size: 20px;
+  padding-bottom: 79px;
+  color: #18181b;
+  opacity: 70%;
+  font-weight: 500;
+}
+.pricecontainer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 116px;
+}
+.pricecard {
+  height: 527px;
+  width: 384px;
+  border-radius: 40px;
+  background-color: #fafbfc;
+  padding: 32px 24px 48px;
+}
+.pricecard:hover {
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.pricecard:hover .bot p {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 50px;
+}
+.pricecard img {
+  height: 36px;
+  width: 36px;
+  margin-right: 16px;
+}
+.pricecard p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.mid {
+  padding: 12px 0px 37px;
+  display: flex;
+  flex-direction: column;
+}
+.mid p:nth-child(1) {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.mid p:nth-child(2) {
+  font-weight: 500;
+  font-size: 16px;
+  color: #919191;
+  margin: 10px 0px 32px;
+}
+.popular {
+  display: flex;
+  height: 59px;
+  width: 336px;
+}
+.popular p:nth-child(1) {
+  font-weight: 500;
+  font-size: 16px;
+  color: #919191;
+  margin: 10px 0px 32px;
+  font-family: Inter, sans-serif;
+}
+.popularcontainer {
+  width: 91px;
+  height: 27px;
+  background-color: #6972b5;
+  border-radius: 50px;
+  color: #fafbfc;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 32px 80px;
+}
+.includes {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 44px;
+  margin-bottom: 16px;
+}
+.mid img {
+  width: 20px;
+  height: 20px;
+}
+.bot p {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials {
+  padding: 80px 120px;
+  display: flex;
+  justify-content: center;
+}
+.socialscontainer {
+  display: flex;
+  gap: 20px;
+  height: 44px;
+  width: 1200px;
+}
+.accounts {
+  height: 44px;
+  width: 167px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6972b5;
+  gap: 10px;
+  background-color: #fafbfc;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accounts img {
+  height: 24px;
+  width: 24px;
+}
+.logo {
+  margin-left: 770px;
+}
