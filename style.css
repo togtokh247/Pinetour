@@ -12,7 +12,7 @@
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: url(./header.png);
+  background-image: url(./Header.png);
   background-size: cover;
 }
 .navbar {
