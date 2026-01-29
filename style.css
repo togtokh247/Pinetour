@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -136,6 +136,7 @@ body {
   align-items: center;
 }
 .map {
+  padding-bottom: 200px;
   width: 100vw;
   height: 100vh;
   background-image: url(./Roadmap\ image.png);
@@ -160,6 +161,7 @@ body {
   font-weight: 500;
 }
 .mapcontainer {
+  padding-bottom: 200px;
   margin: 60px 121px;
   position: relative;
 }
@@ -270,7 +272,8 @@ body {
   display: block;
 }
 .pricing {
-  height: 100vh;
+  /* height: 100vh; */
+  padding-top: 200px;
   width: 100vw;
   background-image: url(./Price&Footer\ image.png);
   background-size: cover;
